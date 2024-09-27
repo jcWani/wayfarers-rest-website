@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<h1 align="center">Wayfarers Rest Website</h1>
 
-## Getting Started
+<!-- ABOUT THE PROJECT -->
 
-First, run the development server:
+## About The Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+Welcome to **Wayfarers Rest**, a web application built to offer users an immersive and peaceful online experience. Developed using React and Next.js this web app for the clients. It provides users with the ability to browse rooms, make bookings, manage their reservations, and interact with the Wayfarers Rest's services.
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Screenshot](./app/public/bg.webp)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<!-- APPLICATION'S FEATURES -->
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📝 Features
 
-## Learn More
+- Browse Available Rooms
 
-To learn more about Next.js, take a look at the following resources:
+  - Explore a wide range of cozy and luxurious cabins with detailed descriptions, high-quality images, and amenities, allowing users to choose the perfect retreat.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Real-Time Room Booking
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  - Book your ideal room by selecting available dates from an intuitive calendar. Tailor your reservation by specifying the number of guests, ensuring you find the right fit for your needs.
 
-## Deploy on Vercel
+- Seamless Google Sign-In
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  - Users can sign in effortlessly through their Google account to create and manage their bookings with ease, making the experience secure and straightforward.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Manage Reservations
+
+  - View all your booked rooms from a personalized dashboard. If plans change, users have the flexibility to edit their reservation details or cancel bookings directly from the app.
+
+- Personalized Profile Management
+
+  - Update your personal details in the profile section to keep your contact and reservation information current, ensuring a smooth booking experience.
+
+<!-- TECHNOLOGY USED -->
+
+## 👨‍💻 Technology Used
+
+The Wayfarers Rest client web application is built using the following technologies and libraries:
+
+- **Next.js**: A powerful React framework used to build a dynamic, fast, and SEO-friendly client-side app, leveraging server-side rendering and static site generation.
+
+- **Supabase**: A fully managed, open-source backend service for the database, shared between the client and admin apps, ensuring real-time data synchronization and smooth operation.
+
+- **Auth.js**: A flexible authentication solution integrated into the app to provide secure, user-friendly sign-in via Google, simplifying the login process.
+
+- **Date-fns:**: A lightweight JavaScript library for efficient and flexible date handling, ensuring accurate booking dates and time management throughout the application.
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo
+
+[https://wayfarers-rest-website.vercel.app/](https://wayfarers-rest-website.vercel.app/)
+
+<!-- ADMIN -->
+
+## 👨🏻‍💼 Employee Portal
+
+This is the client app of Wayfarest Rest. You can also check out the admin panel of Wayfarers Rest below. Both applications share the same database.
+
+- **Employee Portal**: [https://wayfarers-rest.vercel.app/](https://wayfarers-rest.vercel.app/)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgments
+
+This appplication was the main project and developed as part of the [Udemy course](https://www.udemy.com/course/the-ultimate-react-course) "The Ultimate React Course 2024: React, Redux & More" by [Jonas Schmedtman](https://twitter.com/jonasschmedtman).
