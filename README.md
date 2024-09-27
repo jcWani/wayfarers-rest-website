@@ -7,10 +7,10 @@
 ## About The Project
 
 <p align="center">
-Welcome to **Wayfarers Rest**, a web application built to offer users an immersive and peaceful online experience. Developed using React and Next.js this web app for the clients. It provides users with the ability to browse rooms, make bookings, manage their reservations, and interact with the Wayfarers Rest's services.
+Welcome to Wayfarers Rest, a web application built to offer users an immersive and peaceful online experience. Developed using React and Next.js this web app for the clients. It provides users with the ability to browse rooms, make bookings, manage their reservations, and interact with the Wayfarers Rest's services.
 </p>
 
-![Screenshot](./app/public/bg.webp)
+![Screenshot](@/public/bg.webp)
 
 <!-- APPLICATION'S FEATURES -->
 
