@@ -3,6 +3,7 @@ import RoomCard from "./RoomCard";
 
 async function RoomList({ filter }) {
   const rooms = await getRooms();
+  console.log(rooms);
 
   if (!rooms.length) return null;
 

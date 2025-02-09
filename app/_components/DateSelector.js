@@ -38,7 +38,7 @@ function DateSelector({ settings, room, bookedDates }) {
         mode="range"
         onSelect={setRange}
         selected={displayRange}
-        min={minBookingLength + 1}
+        min={minBookingLength}
         max={maxBookingLength}
         startMonth={new Date()}
         endMonth={new Date(new Date().getFullYear() + 5, new Date().getMonth())}
